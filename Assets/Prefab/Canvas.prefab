@@ -281,8 +281,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NEXT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0a819bde5b509bc49a24c44859c7914a, type: 2}
-  m_sharedMaterial: {fileID: -5130981147058709841, guid: 0a819bde5b509bc49a24c44859c7914a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -684,8 +684,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: RESTART
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0a819bde5b509bc49a24c44859c7914a, type: 2}
-  m_sharedMaterial: {fileID: -5130981147058709841, guid: 0a819bde5b509bc49a24c44859c7914a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1023,6 +1023,8 @@ MonoBehaviour:
   timeText: {fileID: 3191051452884341735}
   scoreText: {fileID: 86153766397707384}
   stageScore: 0
+  meGameClear: {fileID: 8300000, guid: 32a3684314927490ab86fd2793d70ba3, type: 3}
+  meGameOver: {fileID: 8300000, guid: d344f3c0bb8f94974a5a76b4a40ebdae, type: 3}
 --- !u!114 &6767473778611026309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1048,7 +1050,7 @@ AudioSource:
   m_GameObject: {fileID: 4576821744734304228}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -7600467842816816617, guid: 1f8b46c53778f344b9fc12cd0e335dc1, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: db1405096d45c48479cc3834979acf93, type: 3}
   m_PlayOnAwake: 1
